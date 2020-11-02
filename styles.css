@@ -10,6 +10,8 @@ body {
 }
 #main {
   background-color: white;
+  background-color: darkcyan;
+  color: white;
   font-weight: 500;
   /* position: fixed; */
   width: 100%;
@@ -43,12 +45,15 @@ body {
   color: inherit;
   margin: 10px;
 }
+
 #hero {
   text-align: center;
   padding: 10px;
   background-color: darkcyan;
 }
-
+#products {
+  padding: 10px;
+}
 #mission {
   padding: 10px;
   text-align: center;
@@ -75,6 +80,22 @@ body {
 .carousel-inner img {
   width: 100%;
   height: 100%;
+}
+.offers {
+  background-color: darkgreen;
+  font-weight: 500;
+  padding: 20px;
+  width: 100%;
+  /* text-align: center; */
+  color: darkgray;
+  height: 100%;
+}
+.offers ul {
+  list-style: square;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 .main-footer {
   padding: 20px;
